@@ -1,0 +1,509 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    background:black;
+    height:80px;
+    width:100%;
+    border-bottom: violet 3px solid;
+    text-align: center;
+}
+nav ul{
+     text-align: center;
+    margin-right: 25px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+nav ul li a{
+    position: relative;
+    color: grey;
+    font-size: 17px;
+    padding:7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/* TResponsive Navigation Menu Bar using HTML & CSS | CSS Media Query.2019.YouTube video, added by CodingNepal. 
+[Online]. Available at: https://www.youtube.com/watch?v=AkK8yHC4TlI [Accessed 19 June 2020] */
+nav ul li a:before{
+   position: absolute;
+   content: '';
+   left: 0;
+   bottom:0;
+   height:3px;
+   width:100%;
+   background:grey;
+   box-shadow: 0 0 10px white, 0 0 40px white,0 0 80px white;
+   transform:scaleX(0);
+   transform-origin: right;
+   transition: transform .4s linear;
+}
+nav ul li a:hover:before{
+   transform: scale(1) ;
+   transform-origin: left;
+}
+#heading, #welcome, #info{
+   text-align: center;
+}
+#heading{
+   
+   padding-top: 40px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  width: 60%;
+  height: 60%;
+  
+}
+.container{
+    width:80%;
+    margin:auto;
+    
+        
+}
+
+
+#newsletter {
+    padding: 10px;
+    color: black;
+    background: gray;
+}
+#newsletter h2{
+   float:left;
+   color: white;
+   font-family: "Comic Sans MS", cursive, sans-seri;
+   margin-bottom: 400px;
+   
+}
+#newsletter form{
+  float:right;
+  
+} 
+
+#newsletter[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.button_1{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: darkslategrey;
+}
+
+footer {
+	  position:absolute;
+     bottom:0;
+    padding: 20px;
+    height: 38px;
+    background: lightslategray;
+    border: none;
+    margin-top: 20px;
+    color: whitesmoke;
+    background-color: gray;
+    text-align: center;
+      
+}
+@media all and (max-width: 768px){
+    float: none;
+    text-align: center;
+    width: 100%;
+    
+}
+
+
+form{
+    margin-top: 50px;
+    transition:all 4s ease-in-out;
+    text-align: center;
+    border-color: darkgray;
+    outline-color: darkgray;
+  
+}
+.form-control{
+    widows: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid darkgray;
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 16px;
+    
+}
+input{
+    height: 45px;
+}
+form .submit{
+    background: black;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+   
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top:20px;
+}
+form .submit:hover{
+    background-color: darkgrey;
+    color: white;
+    box-shadow: 0 0 10px grey, 0 0 40px gray,0 0 80px gray;
+    transition-delay: 1s;
+    cursor:pointer;
+}
+form .reset{
+    background: black;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+  
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top:20px;
+}
+form .reset:hover{
+    background-color: darkgrey;
+    color: white;
+    box-shadow: 0 0 10px grey, 0 0 40px gray,0 0 80px gray;
+    transition-delay: 1s;
+    cursor:pointer;
+}
+.call{
+    box-shadow: 0 0 10px grey, 0 0 40px gray,0 0 100px gray;
+    transition-delay: 1s;
+    cursor:pointer;  
+}
+ form #selectAs{
+  
+    transform: translate(190%, 0);
+    display:block;
+    text-align: center;
+    margin:30px 0;
+    padding: 10px 50px 10px 10px;
+    background-color: black;
+    border-color: violet;
+    color:gray;
+    border-radius: 4px;
+    width: 280px;
+  
+}
+.file:before {
+ 
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: #ffccff;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.file::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.file:hover::before {
+  border-color: black;
+}
+.file:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+#boxes{
+    margin-top:20px;
+}
+
+#boxes  .box{
+    float:left;
+    width:25%;
+    padding: 10px;
+    text-align: center;
+    
+}
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#Feeds{
+    margin-top:20px;
+}
+
+#Feeds  .feed{
+    display:block;
+    float:left;
+    width:30%;
+    height: 1200px;
+    padding: 10px;
+    text-align: center;
+    
+}
+label #btn,
+label #cancel{
+    color:white;
+    font-size:30px;
+    float:right;
+    line-height:80px;
+    margin-right: 40px;
+    cursor:pointer;
+    display:none;
+}
+#check{
+    display:none;
+} 
+/* TResponsive Navigation Menu Bar using HTML & CSS | CSS Media Query.2019.YouTube video, added by CodingNepal. 
+[Online]. Available at: https://www.youtube.com/watch?v=AkK8yHC4TlI [Accessed 19 June 2020] */
+
+/* RESPONSIVE CODE */
+
+@media (max-width: 860px){
+    label #btn{
+        display:block;
+    }
+    ul{
+        position:fixed;
+        width:100%;
+        height: 100vh;
+        background: black;
+        background: url("logoBg.PNG");
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        top: 80px;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+        
+    }
+    nav ul li{
+        display:block;
+        margin:50px 0;
+        line-height:30px;
+    }
+    nav ul li a{
+        font-size:17px;
+    }  
+    #check:checked ~ ul{
+        left:0;
+       position:static;
+       display: block;
+        
+       
+       
+    }
+     #check:checked ~ *{
+      position:static;
+      display: block;
+      
+     
+      
+     }
+    #check:checked ~ label #btn{
+        display:none;
+
+    }
+   #check:checked ~ label #cancel{
+        display:block;
+    }
+    #heading{
+        padding: 30px;
+    }
+    nav ul li a{
+        color: white ;
+        font-weight: bold;
+    }
+    .about{
+        padding: 20px;
+        position: relative;
+        text-align: center;
+    }
+    .contact-form{
+        position: relative;
+        text-align: center;  
+    }
+    #file{
+        position: relative;
+        text-align: center;    
+    }
+    #selectAs{
+        position: relative;
+        text-align: center;   
+        display: inline-block; 
+    }
+    .gallery{
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        text-align: center;
+        position: relative;
+     
+    }
+  
+    
+   
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+  content img{
+      height:auto;
+      max-width: 50%
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+    content img{
+      height:auto;
+      max-width: 100%
+  }
+}
+/*Contact Us Form Validation Using Javascript | Form Validation In Javascript.2019.YouTube video, added by Coding Market. [Online]. Available at:
+https://www.youtube.com/watch?v=WY4rvU4ImgE [Accessed 28 June 2020]*/
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+} 
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  display: none; /* Hide columns by default */
+  flex: 25%;
+  max-width: 100%;
+  padding: 0 4px;
+  position: relative;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: black;
+  color: violet;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: grey;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: black;
+   color: violet;
+}
+
+.content img{
+   
+    height:250px;
+    vertical-align: middle;
+    margin-top: 8px;
+    width:100%;
+   opacity: 0.8;
+   cursor: pointer;
+    
+}
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+.imgagecontainer{
+  position: relative;
+  display: none;
+}
+table {
+  width: 100%;
+}
+
+th {
+  width: 80px;
+  height: 80px;
+}
+.responsive-iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+ 
+      
+
+}
+
+.content img:hover{
+   
+    transform: scale(1.1);
+}
+.container{
+    width:80%;
+    margin:auto;
+    
+        
+}

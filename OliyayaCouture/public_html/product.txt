@@ -1,0 +1,23 @@
+Blue Oliyaya,2500,images\\BlueOliyaya.png,5
+Brown Agbada,1000,images\\BrownAgbada.png,4
+Classy Traditional Dress,3500,images\\ClassyTraditional Dress.png,10
+Green Oliyaya,3000,images\\GreenOliyaya.png,6
+Grey Agbada,1500,images\\GreyAgbada.png,4
+Lilac Suit,2000,images\\LilacSuit.jpeg,20
+Moss Green Suit,2000,images\\MossGreenSuit.png,15
+One Arm Printed Dress,1500,images\\OneArmPrintedDress.jpeg,10
+Orange Printed Dress,1000,images\\OrangePrintedDress.png,5
+Peplum Printed Dress,1500,images\\PeplumPrintedDress.png,6
+Portait Back Dress,3000,images\\PortaitBackDress.png,6
+Printed Agbada,1200,images\\PrintedAgbada.png,4
+White Oliyaya,2800,images\\WhiteOliyaya.jpeg,12
+Printed Two Piece,1500,images\\PrintedTwoPiece.jpg,20
+Red Dress,4000,images\\RedDress.png,3
+Scoop Neckline,3500,images\\ScoopNeckline.jpg,8
+Swati Dress,2500,images\\SwatiDress.png,8
+Touch Of Blue,3000,images\\TouchOfBlue.jpg,10
+Traditional Print Ball Gown,2500,images\\TraditionalPrintBallGown.png,5
+Tswana Dress,4000,images\\TswanaDress.jpg,2
+White Cowl Dress,3500,images\\WhiteCowlDress.jpg,4
+Xhosa Dress,2500,images\\XhosaDress.jpg,10
+Xhosa Mermaid Dress,3000,images\\XhosaMermaidDress.png,8
